@@ -1,0 +1,10 @@
+D:\C# Code\Projects\UniversityAutomationSystem\UniversityAutomationSystem\bin\UniversityAutomationSystem.dll
+D:\C# Code\Projects\UniversityAutomationSystem\UniversityAutomationSystem\bin\UniversityAutomationSystem.pdb
+D:\C# Code\Projects\UniversityAutomationSystem\UniversityAutomationSystem\obj\Debug\UniversityAutomationSystem.dll
+D:\C# Code\Projects\UniversityAutomationSystem\UniversityAutomationSystem\obj\Debug\UniversityAutomationSystem.pdb
+D:\C# Code\Projects\UniversityAutomationSystem\UniversityAutomationSystem\bin\MySql.Data.dll
+D:\C# Code\Projects\UniversityAutomationSystem\UniversityAutomationSystem\UniversityAutomationSystem\bin\UniversityAutomationSystem.dll
+D:\C# Code\Projects\UniversityAutomationSystem\UniversityAutomationSystem\UniversityAutomationSystem\bin\UniversityAutomationSystem.pdb
+D:\C# Code\Projects\UniversityAutomationSystem\UniversityAutomationSystem\UniversityAutomationSystem\bin\MySql.Data.dll
+D:\C# Code\Projects\UniversityAutomationSystem\UniversityAutomationSystem\UniversityAutomationSystem\obj\Debug\UniversityAutomationSystem.dll
+D:\C# Code\Projects\UniversityAutomationSystem\UniversityAutomationSystem\UniversityAutomationSystem\obj\Debug\UniversityAutomationSystem.pdb

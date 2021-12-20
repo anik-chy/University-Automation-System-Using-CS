@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E11B45F4-BF07-4BC2-AF8C-53647483B1F7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UniversityAutomationSystem</RootNamespace>
+    <AssemblyName>UniversityAutomationSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.1.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddCourse_stu_admin.aspx" />
+    <Content Include="AddCourse_tec_admin.aspx" />
+    <Content Include="AddStudent_admin.aspx" />
+    <Content Include="AddTeacher_admin.aspx" />
+    <Content Include="AdminHome.aspx" />
+    <Content Include="ApproveResults_admin.aspx" />
+    <Content Include="AssignmentsDownloads.aspx" />
+    <Content Include="AssignmentsUpload.aspx" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\austlogo3.png" />
+    <Content Include="Images\oslogo.png" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="LectureDownload.aspx" />
+    <Content Include="LectureUpload.aspx" />
+    <Content Include="ShowCourse_ar_admin.aspx" />
+    <Content Include="ShowCourse_tec.aspx" />
+    <Content Include="ShowResult_stu.aspx" />
+    <Content Include="ShowStudent_admin.aspx" />
+    <Content Include="ShowTeacher_admin.aspx" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="StudentHome.aspx" />
+    <Content Include="TeacherHome.aspx" />
+    <Content Include="UploadResult_tec.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCourse_stu_admin.aspx.cs">
+      <DependentUpon>AddCourse_stu_admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddCourse_stu_admin.aspx.designer.cs">
+      <DependentUpon>AddCourse_stu_admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddCourse_tec_admin.aspx.cs">
+      <DependentUpon>AddCourse_tec_admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddCourse_tec_admin.aspx.designer.cs">
+      <DependentUpon>AddCourse_tec_admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudent_admin.aspx.cs">
+      <DependentUpon>AddStudent_admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddStudent_admin.aspx.designer.cs">
+      <DependentUpon>AddStudent_admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddTeacher_admin.aspx.cs">
+      <DependentUpon>AddTeacher_admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddTeacher_admin.aspx.designer.cs">
+      <DependentUpon>AddTeacher_admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome.aspx.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminHome.aspx.designer.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApproveResults_admin.aspx.cs">
+      <DependentUpon>ApproveResults_admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApproveResults_admin.aspx.designer.cs">
+      <DependentUpon>ApproveResults_admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssignmentsDownloads.aspx.cs">
+      <DependentUpon>AssignmentsDownloads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssignmentsDownloads.aspx.designer.cs">
+      <DependentUpon>AssignmentsDownloads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssignmentsUpload.aspx.cs">
+      <DependentUpon>AssignmentsUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssignmentsUpload.aspx.designer.cs">
+      <DependentUpon>AssignmentsUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\Course_tblDAO.cs" />
+    <Compile Include="DAO\Result_tblDAO.cs" />
+    <Compile Include="DAO\Student_tblDAO.cs" />
+    <Compile Include="DAO\Teacher_tblDAO.cs" />
+    <Compile Include="DBConnect.cs" />
+    <Compile Include="DbHandeler.cs" />
+    <Compile Include="DTO\Course_tblDTO.cs" />
+    <Compile Include="DTO\Result_tblDTO.cs" />
+    <Compile Include="DTO\Student_tblDTO.cs" />
+    <Compile Include="DTO\Teacher_tblDTO.cs" />
+    <Compile Include="LectureDownload.aspx.cs">
+      <DependentUpon>LectureDownload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LectureDownload.aspx.designer.cs">
+      <DependentUpon>LectureDownload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LectureUpload.aspx.cs">
+      <DependentUpon>LectureUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LectureUpload.aspx.designer.cs">
+      <DependentUpon>LectureUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master1.Master.cs">
+      <DependentUpon>Master1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master1.Master.designer.cs">
+      <DependentUpon>Master1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowCourse_ar_admin.aspx.cs">
+      <DependentUpon>ShowCourse_ar_admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowCourse_ar_admin.aspx.designer.cs">
+      <DependentUpon>ShowCourse_ar_admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowCourse_tec.aspx.cs">
+      <DependentUpon>ShowCourse_tec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowCourse_tec.aspx.designer.cs">
+      <DependentUpon>ShowCourse_tec.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowResult_stu.aspx.cs">
+      <DependentUpon>ShowResult_stu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowResult_stu.aspx.designer.cs">
+      <DependentUpon>ShowResult_stu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowStudent_admin.aspx.cs">
+      <DependentUpon>ShowStudent_admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowStudent_admin.aspx.designer.cs">
+      <DependentUpon>ShowStudent_admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowTeacher_admin.aspx.cs">
+      <DependentUpon>ShowTeacher_admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowTeacher_admin.aspx.designer.cs">
+      <DependentUpon>ShowTeacher_admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentHome.aspx.cs">
+      <DependentUpon>StudentHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentHome.aspx.designer.cs">
+      <DependentUpon>StudentHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherHome.aspx.cs">
+      <DependentUpon>TeacherHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeacherHome.aspx.designer.cs">
+      <DependentUpon>TeacherHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadResult_tec.aspx.cs">
+      <DependentUpon>UploadResult_tec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadResult_tec.aspx.designer.cs">
+      <DependentUpon>UploadResult_tec.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assignments\Day 02_CSE3103_DBMS_FALL_2016.pdf" />
+    <None Include="css\bootstrap-theme.css.map" />
+    <None Include="css\bootstrap-theme.min.css.map" />
+    <None Include="css\bootstrap.css.map" />
+    <None Include="css\bootstrap.min.css.map" />
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Master1.Master" />
+    <None Include="lectures\Day 01_CSE3103_DBMS_FALL_2016.pdf" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52559</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
